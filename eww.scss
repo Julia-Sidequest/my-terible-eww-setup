@@ -1,0 +1,15 @@
+//#### sets up some general stuff first ###########################################
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  background: none;
+  font-size: 16px;
+}
+
+
+//#### Imports all the actuall scss files we want to use ##########################
+@import '.scss/_musicplayer'
+
+

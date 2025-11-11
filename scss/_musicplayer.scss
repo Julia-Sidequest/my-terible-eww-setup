@@ -1,0 +1,35 @@
+.playpause {
+	background-color: #F1dad5;
+        color: #FFFF00;
+	border: 0px solid #ef11bf;
+	border-radius: 0px;
+}
+
+.playpause,
+.button {
+	background-color: #F1dad5;
+        color: #000000;
+	border: 0px solid #ef11bf;
+        min-height: 0;
+        min-width: 0;
+	border-radius: 3px;
+        opacity: 1;
+        padding: 0;
+}
+
+.playpause,
+.box {
+	background-color: #F1dad5;
+        color: #000000;
+	border: 0px solid #ef11bf;
+	border-radius: 3px;
+	opacity: 1;
+        padding: 0;
+}
+
+.volume {
+	background-color: #F1dad5;
+        color: #000000;
+	border: 0px solid #ef11bf;
+	border-radius: 3px;
+}
