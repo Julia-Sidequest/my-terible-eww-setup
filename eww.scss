@@ -1,15 +1,43 @@
-//#### sets up some general stuff first ###########################################
 * {
-  border: none;
-  margin: 0;
+        border: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        background: none;
+        font-size: 16px;
+}
+
+button {
+  min-width: 0;
+  min-height: 0;
   padding: 0;
-  box-shadow: none;
-  background: none;
-  font-size: 16px;
 }
 
 
-//#### Imports all the actuall scss files we want to use ##########################
-@import '.scss/_musicplayer'
+.playpause,
+.greater, //not working
+.hii, //not working
+.weather, //not working
+.button,
+.text, //center
+.clock,
+.placeholder,
+.box, 
+.volume {
+	background-color: #F1dad5;
+        color: #000000;
+	border: 0px solid #ef11bf;
+	border-radius: 3px;
+	opacity: 1;
+        padding: 0;
+        font-size: 16px;
+}
 
-
+.pink {
+	background-color: #F1dad5;
+        color: #000000;
+	border: 0px solid #ef11bf;
+	border-radius: 3px;
+	opacity: 0.3;
+        padding: 0;
+}
