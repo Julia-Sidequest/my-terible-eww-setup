@@ -35,6 +35,7 @@ tickfile="/tmp/eww_ticker"
 for skip in "${blacklist[@]}"; do # iterates the list of artists to skip
     if [[ "$artist_lower" == "${skip,,}" ]]; then # skips if any of the artists match
         playerctl next
+		sleep 1
         exit 0
     fi
 done
