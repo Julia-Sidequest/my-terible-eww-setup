@@ -1,3 +1,27 @@
 (include "yuck/musicplayer.yuck")
+(include "yuck/pinkcenter.yuck")
+(include "yuck/timedate.yuck")
+(include "yuck/weather.yuck")
+
+
+
+
+(defwindow placeholder
+           :monitor 0
+           :geometry (geometry :x "2px"
+                               :y "-19px"
+                               :width "7%"
+                               :height "20px"
+                               :anchor "top left")
+           :stacking "fg"
+           :exclusive true
+           :windowtype "dock"
+           :wm-ignore false
+"placeholder")
+
+
+
+
+
 
 
