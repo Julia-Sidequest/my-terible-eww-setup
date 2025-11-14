@@ -1,0 +1,14 @@
+(defwindow clock
+           :monitor 0
+           :geometry (geometry :x "2px"
+                               :y "-19px"
+                               :width "7%"
+                               :height "20px"
+                               :anchor "top right")
+           :stacking "fg"
+           :exclusive true
+           :windowtype "dock"
+           :wm-ignore false
+time)
+
+(defpoll time :interval "10s" "date '+%H:%M %dth of %B  %Y'")

@@ -1,0 +1,14 @@
+(defwindow weather
+           :monitor 0
+           :geometry (geometry :x "1875px"
+                               :y "-19px"
+                               :width "7%"
+                               :height "20px"
+                               :anchor "top left")
+           :stacking "fg"
+           :exclusive true
+           :windowtype "dock"
+           :wm-ignore false
+weather)
+
+(defpoll weather :interval "90s" "scripts/weather.sh")
