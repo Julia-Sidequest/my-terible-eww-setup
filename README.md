@@ -5,6 +5,8 @@ it runs on "eww" https://github.com/elkowar/eww
 
 to run it copy everything in this file to ./config/eww 
 
+parts of thgis setup requires you to use a nerd-font https://www.nerdfonts.com/
+
 If you want to use the weather client you will need to enter your latitude and longitude into latlon.txt 
 
 befor first run you need to make everyting executable with: cmod +x ewwstar.sh; cd scripts; chmod +x blacklist.sh music.sh weather.sh 
